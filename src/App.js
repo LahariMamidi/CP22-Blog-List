@@ -14,9 +14,9 @@ const App = () => (
       <Header />
       <div className="app-body">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/CP22-Blog-List/" element={<Home />} />
+          <Route path="/CP22-Blog-List/about" element={<About />} />
+          <Route path="/CP22-Blog-List/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
